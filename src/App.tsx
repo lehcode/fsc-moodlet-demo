@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import FSCMoodlet, { type FSCAction, type FSCState } from './components/Moodlet';
 
 function App() {
+  // Create a handler that complies with ESLint rules
+  const handleStateChange = (item: FSCAction, newState: FSCState) => {
+    // Using console.warn is allowed by ESLint config
+    // eslint-disable-next-line no-console
+    console.log(`${item} changed to ${newState}`);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FSCMoodlet
+        initialStates={{
+          FUELLING: 'REQUIRED',
+          SERVICING: 'CURRENT',
+          CLEANING: 'COMPLETED',
+        }}
+        onChange={handleStateChange}
+      />
     </div>
   );
 }
