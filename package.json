@@ -2,6 +2,7 @@
     "name": "react-fsc",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://lehcode.github.io/fsc-moodlet-demo",
     "dependencies": {
         "@testing-library/dom": "^10.0.0",
         "@testing-library/jest-dom": "^5.14.1",
