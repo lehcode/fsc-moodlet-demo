@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fsc-moodlet-demo/static/css/main.07f016e1.css",
+    "main.js": "/fsc-moodlet-demo/static/js/main.4530b985.js",
+    "static/js/453.7176d782.chunk.js": "/fsc-moodlet-demo/static/js/453.7176d782.chunk.js",
+    "index.html": "/fsc-moodlet-demo/index.html",
+    "main.07f016e1.css.map": "/fsc-moodlet-demo/static/css/main.07f016e1.css.map",
+    "main.4530b985.js.map": "/fsc-moodlet-demo/static/js/main.4530b985.js.map",
+    "453.7176d782.chunk.js.map": "/fsc-moodlet-demo/static/js/453.7176d782.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07f016e1.css",
+    "static/js/main.4530b985.js"
+  ]
+}
