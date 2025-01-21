@@ -3,7 +3,8 @@
     "editor.guides.indentation": false,
     "cSpell.words": [
         "IFSC",
-        "Moodlet"
+        "Moodlet",
+        "moodlets"
     ],
     "editor.codeActionsOnSave": {
         "source.organizeImports": "always",

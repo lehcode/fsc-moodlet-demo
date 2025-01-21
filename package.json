@@ -71,7 +71,10 @@
         "postcss": "^8.5.1",
         "postcss-cli": "^11.0.0",
         "prettier": "^2.6.2",
-        "tailwindcss": "^3.4.17"
+        "tailwindcss": "^3.4.17",
+        "ts-jest": "^29.1.1",
+        "vitest": "^1.0.4",
+        "@vitest/coverage-v8": "^1.0.4"
     },
     "packageManager": "yarn@1.22.22"
 }
